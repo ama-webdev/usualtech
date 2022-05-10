@@ -1,0 +1,8 @@
+:root{
+    --primary:#2b90d9;
+    --secondary: #28a745;
+    --light:#ffffff;
+    --dark:#444444;
+    --mute:#777777;
+    --shadow:0 2px 2px -2px rgba(0,0,0,.2);
+}

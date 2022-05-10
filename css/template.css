@@ -1,0 +1,123 @@
+.u-nav{
+    box-shadow: var(--shadow);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: var(--light);
+    z-index: 999;
+}
+.u-nav .u-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 1rem;
+}
+.u-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.u-logo .u-brand{
+    font-weight: 700;
+    color: var(--secondary);
+    text-decoration: none;
+    font-size: 2rem;
+}
+.u-logo .u-brand span{
+    color: var(--primary);
+}
+.u-menu ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding:0;
+    gap: 2rem;
+}
+
+.u-menu ul li a{
+    text-decoration: none;
+    color: var(--mute);
+    font-weight: 600;
+    transition: .3s ease all;
+}
+.u-menu ul li a:hover{
+    color: var(--primary);
+}
+.u-menu ul li a.active{
+    color: var(--primary);
+}
+.u-menu ul li a.signup{
+    color: var(--light);
+    background-color: var(--primary);
+    padding: .5rem 1.25rem;
+    border-radius: .3rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+
+}
+.u-menu ul li a.signup:hover{
+    background-color:#1b6eaa;
+    
+}
+.u-nav-toggler{
+    display: none;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+.u-nav-toggler i{
+    color: var(--dark);
+}
+
+footer{
+    text-align: center;
+    background-color:var(--dark);
+}
+footer a,footer p,footer i{
+    color: var(--light);
+    margin: 0;
+    padding:0;
+}
+footer a:hover{
+    color: var(--light);
+    text-decoration: underline;
+}
+footer h3{
+    padding: 1rem;
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+   .u-nav .u-container{
+        padding: 2rem 1rem;
+        align-items: flex-start;
+    }
+    .u-nav-toggler{
+        display: block;
+    }
+    .u-logo .u-brand{
+        font-size: 1.5rem;
+    }
+    .u-menu ul{
+        display: none;
+        margin:1rem 0 0 0;
+    }
+    .u-menu ul.active{
+        display: block;
+    }
+    .u-logo{
+        display: block;
+    }
+    .u-menu ul li{
+        margin: 0 ;
+        padding:.5rem .2rem;
+    }
+    .u-menu ul li a{
+        width: 100%;
+        display: inline-block;
+    }
+    .banner img{
+        width: 100%;
+    }
+    
+}
+    

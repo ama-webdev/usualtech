@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--mute);
+}
+body{
+    background-color: var(--light);
+    color: var(--dark);
+}
+h1,h2,h3,h4,h5{
+    margin: 0;
+    padding: 0;
+    color: var(--dark);
+}
+p{
+    color: var(--dark);
+    line-height: 1.8rem;
+}
+.u-container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+.u-text-center{
+    text-align: center;
+}
+.u-text-primary{
+    color: var(--primary);
+}
+.u-text-secondary{
+    color: var(--secondary);
+}
+.title{
+    font-weight: bold;
+    text-align: center;
+}
+.sub-title{
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
