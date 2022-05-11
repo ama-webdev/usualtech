@@ -33,7 +33,12 @@
     display: flex;
     margin: 0;
     padding:0;
-    gap: 2rem;
+}
+.u-menu ul li{
+    margin-right: 2rem;
+}
+.u-menu ul li:last-child{
+    margin-right:0;
 }
 
 .u-menu ul li a{
@@ -52,7 +57,7 @@
     color: var(--light);
     background-color: var(--primary);
     padding: .5rem 1.25rem;
-    border-radius: .3rem;
+    border-radius: .2rem;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
 
 }
